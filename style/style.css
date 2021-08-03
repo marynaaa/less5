@@ -1,0 +1,27 @@
+body,
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.kasper {
+    padding: 120px 0 40px;
+    background-color: #121116;
+    color: white;
+    text-align: center;
+
+}
+
+
