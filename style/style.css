@@ -1,27 +1,68 @@
-body,
-html {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-}
-
 * {
     box-sizing: border-box;
 }
 
-.header {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-}
-
-.kasper {
-    padding: 120px 0 40px;
+.container {
+    width: 100%;
+    max-width: 1200px;
     background-color: #121116;
-    color: white;
+    margin: 0%;
+    padding: 0%;
     text-align: center;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.logo {
+    padding: 120px 0 40px;
+    color: white;
+}
 
+.title-holder{
+    max-width: 230px;
+    margin: 0 auto 40px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.title-holder h1 {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.social-list {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+.social-item {
+    display: inline-block;
+    margin: 0 17px;
+}
+
+.social-link {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.social-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.copyright {
+    padding-bottom: 43px;
+    font-size: 16px ;
+    font-weight: 500px;
+    color: #fff;
+}
+.copyright span {
+    color: #19c8fa;
+}
