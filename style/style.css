@@ -13,7 +13,10 @@
 }
 
 .logo {
+    max-width: 113px;
+    margin: 0 auto 35px;
     padding: 120px 0 40px;
+    text-align: center;
     color: white;
 }
 
