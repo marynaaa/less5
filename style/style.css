@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
 }
 
 .container {
@@ -21,6 +23,7 @@
 
 .title-holder{
     max-width: 230px;
+    padding-bottom: 20px;
     margin: 0 auto 40px;
     border-bottom: 1px solid #fff;
     color: #fff;
